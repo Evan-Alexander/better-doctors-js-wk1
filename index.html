@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Searchable Doctors</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <h1>Search for a Doctor in the Portland Area</h1>
+      <form class="form-group" id="search-form">
+        <label for="ailment">What do you need treatment for?</label>
+        <input id="search-ailment" class="form-control" type="text" name="ailment" required="">
+        <button class="btn btn-info" id='button' type="submit">Submit</button>
+      </form>
+
+      <div class="display-results" id="display-results">
+      </div>
+    </div>
+  </body>
+</html>
