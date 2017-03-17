@@ -49,7 +49,7 @@ Please reach Jason at github.com/Evan-Alexander.
 | Behavior | Input 1 | Output |
 |--------|-------|------|
 | User enters ailment | "broken leg"| returns a list of 20 doctors. |
-| example of output: "Dr. Fixit, (503-222-1212), 1234 NE Davis, dr.fixit@domain.com"|
+| Example of output: | | "Dr. Fixit, (503-222-1212), 1234 NE Davis, dr.fixit@domain.com"|
 
 
 
