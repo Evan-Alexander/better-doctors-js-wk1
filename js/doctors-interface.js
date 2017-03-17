@@ -7,13 +7,13 @@ var searchedDoctors = function(response) {
   var array = response.data;
   console.log(array);
   for (i=0; i<array.length; i++) {
-    $('#display-results'). append("<h4>" + response.data[i].profile.first_name + " "+ "<span>" + response.data[i].profile.last_name + "</span></h4>");
-  };
+    $('#display-results'). append("<div class='well col-md-6 doctor-space'><img src="+response.data[i].profile.image_url+"><h4>" + response.data[i].profile.first_name + " "+ "<span>" + response.data[i].profile.last_name + " "+ "</span>" + response.data[i].profile.title + "</h4></div>");
+  }
 
 };
 
 $(document).ready(function() {
-  var doctor = new Doctor;
+  var doctor = new Doctor();
   $('#search-form').submit(function(event) {
     event.preventDefault();
     var medicalIssue = $('#search-ailment').val();
