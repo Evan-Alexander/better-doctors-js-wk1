@@ -1,8 +1,8 @@
 {
-  "name": "better-doctors",
+  "name": "js-api-2day",
   "version": "1.0.0",
-  "description": " A searchable tool where Portland area potential patients may look up doctors by their specialties.",
-  "main": "gulpfile.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
