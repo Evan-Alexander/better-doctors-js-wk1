@@ -1,0 +1,21 @@
+{
+  "name": "better-doctors",
+  "description": "A searchable tool where Portland area potential patients may look up doctors by their specialties.",
+  "main": "gulpfile.js",
+  "authors": [
+    "Jason Brown <jasontbrown99@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.0",
+    "bootstrap": "^3.3.7"
+  }
+}
