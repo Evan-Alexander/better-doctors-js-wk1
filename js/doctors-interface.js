@@ -7,7 +7,7 @@ var searchedDoctors = function(response) {
   var array = response.data;
   console.log(array);
   for (i=0; i<array.length; i++) {
-    $('#display-results'). append("<h4>" + response.data[i].profile.first_name + "</h4>");
+    $('#display-results'). append("<h4>" + response.data[i].profile.first_name + " "+ "<span>" + response.data[i].profile.last_name + "</span></h4>");
   };
 
 };
