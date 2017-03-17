@@ -7,8 +7,17 @@ var searchedDoctors = function(response) {
   var array = response.data;
   console.log(array);
   for (i=0; i<array.length; i++) {
-    $('#display-results'). append("<div class='well col-md-6 doctor-space'><img src="+response.data[i].profile.image_url+"><h4>" + response.data[i].profile.first_name + " "+ "<span>" + response.data[i].profile.last_name + " "+ "</span>" + response.data[i].profile.title + "</h4></div>");
+    if (array.length === 0) {
+      $('#display-results').append("There are no doctors with this specialty in your area.");
+    } else {
+      $('#display-results').append("<div class='well col-md-6 doctor-space'><img src="+response.data[i].profile.image_url+"><h4>" + response.data[i].profile.first_name + " "+ "<span>" + response.data[i].profile.last_name + " "+ "</span>" + response.data[i].profile.title + "</h4><br><p>" + response.data[i].profile.bio + "</p></div>");
+    }
   }
+  // for (i=0;i<array.length;i++){
+  //   for (j=0;j<3;j++){
+  //   $("#display-results").append("<li>"++" - "+  +"</li>")
+  //   }
+  // }
 
 };
 
