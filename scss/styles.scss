@@ -1,0 +1,43 @@
+body {
+  margin: 10%;
+  text-align: center;
+  background-color: #87c6c3;
+}
+
+.form-control {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  align-self: center;
+}
+
+.doctor-space {
+  background-color: #c3eee7;
+  border: 2px solid #5b391e;
+  border-radius: 25px;
+  max-width: 40%;
+  margin: 5%;
+}
+
+#search-wrapper {
+  background-color: #66bbae;
+  border: 2px solid #947057;
+  border-radius: 10px;
+}
+
+#button {
+  margin-top: 1%;
+}
+
+#header {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+li{
+  list-style: none;
+}
